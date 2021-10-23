@@ -84,7 +84,7 @@ class EpicGenerator:
  self.access_token = await self.get_access_token()
  
  print(
- f"DeviceAuthGenerator v{__version__} made by xMistt // Oli. Ask for help in PartyBot."
+ f"DeviceAuthGenerator v{__version__} made by plagueCreator"
  )
  await asyncio.sleep(3)
  os.system("cls" if "win" in sys.platform else "clear")
