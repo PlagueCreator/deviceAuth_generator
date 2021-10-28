@@ -33,6 +33,7 @@ class EpicUser:
  self.client_id = data.get("client_id", "")
  self.internal_client = data.get("internal_client", False)
  self.client_service = data.get("client_service", "")
+ 
  self.display_name = data.get("displayName", "")
  self.app = data.get("app", "")
  self.in_app_id = data.get("in_app_id", "")
